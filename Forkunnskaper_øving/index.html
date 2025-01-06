@@ -4,30 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forkunnskaper øvingsoppgave</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <nav>
-        <p>Logo</p>
-        <li>
-            <ul>Hjem<ul>
-            <ul>Våre kurs</ul>
-            <ul>Kontakt</ul>
-        </li>
-    </nav>
+    <header>
+            <nav id="header_nav">
+                <p class="logo">Logo</p>
+                <ul id="header_ul">
+                    <li>Hjem</li>
+                    <li>Våre kurs</li>
+                    <li>Kontakt</li>
+                </ul>
+            </nav>
+    </header>
     <main>
-        <h3>Kurs</h3>
-        <article>
-            <h4>Webutvikling</h4>
-            <p>Lær grunnsteinene i Webutvikling med teknologiene HTML og CSS</p>
-        </article>
-        <article>
-            <h4>Javascript/h4>
-            <p>Lær et av de mest brukte scriptspråkene for frontend-design og utvikling</p>
-        </article>
-        <article>
-            <h4>React + Sanity</h4>
-            <p>Lær avansert rammeverk og CMS-løsninger for applikasjonsutvikling</p>
-        </article>
+        <section id="info">
+        <p>Vi er et lite selskap som hjelper stydenter å bli bedre web- og apllikasjonsdesignere og -utviklere. Vi er to ansatte som har lang erfaring med store og små prosjekter, og nå bruker vi dennne erfaringen for å skape flere dyktige IT-folk</p>
+        <img src="img/chris-montgomery-smgTvepind4-unsplash.jpg" alt="Bildebeskrivelse"/>
+        </section>
+        <section id="kurs">
+            <h3>Kurs</h3>
+            <article>
+                <h4>Webutvikling</h4>
+                <p>Lær grunnsteinene i Webutvikling med teknologiene HTML og CSS</p>
+            </article>
+            <article>
+                <h4>Javascript/h4>
+                <p>Lær et av de mest brukte scriptspråkene for frontend-design og utvikling</p>
+            </article>
+            <article>
+                <h4>React + Sanity</h4>
+                <p>Lær avansert rammeverk og CMS-løsninger for applikasjonsutvikling</p>
+            </article>
+        </section>
     </main>
     <footer>
         <form>
@@ -37,7 +46,7 @@
             <label for="email">E-post</label>
             <input type="email" id="email">
         </form>
-        <p>Sett inn bilde</p>
+        <img src="img/miguel-henriques-RfiBK6Y_upQ-unsplash.jpg" alt="Bildebeskrivelse"/>
         <nav>
             <p>Logo</p>
             <ul>
