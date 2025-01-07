@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/*Farger*/
+/*Litt usikker hvor jeg skal legge de som skal forandre alle*/
+.logo { /**/
+  font-size: 24px;
+  font-style: oblique;
+}
+
+ul {
+  list-style: none; /*For å fjerne default liste style*/
+}
+
+li {
+  margin: 1rem;
+}
+
+img {
+  max-width: 50%;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 6fr 6fr 6fr;
+  grid-template-areas: "header header header header" "main main main main" "main main main main" "footer footer footer footer";
+}
+body header {
+  grid-area: header;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #7030A0;
+  color: #ffffff;
+}
+body header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body header nav ul {
+  display: flex;
+  align-content: center;
+  justify-content: end;
+  flex-direction: row;
+}
+body main {
+  grid-row: 2/4;
+  grid-column: 1/4;
+}
+body footer {
+  grid-row: 4/4;
+  grid-column: 1/4;
+}/*# sourceMappingURL=main.css.map */
