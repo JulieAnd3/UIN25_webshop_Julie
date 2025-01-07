@@ -2,7 +2,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display:grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: 1fr 6fr 6fr 6fr;
     grid-template-areas: 
     "header header header header"
     "main main main main"
